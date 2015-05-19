@@ -1,0 +1,6 @@
+/*
+*= require_tree ./Bootstrap
+*= require_tree ./Splash
+*= require_self
+*= require_tree ./Global
+*/

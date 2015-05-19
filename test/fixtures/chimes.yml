@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  category: MyString
+  rating: 1
+  interaction_date: 2015-04-21
+  site: MyString
+  body: MyText
+  body_html: MyText
+  body_short: MyString
+  employer: MyString
+  job_title: MyString
+  location: MyString
+  school: MyString
+
+two:
+  category: MyString
+  rating: 1
+  interaction_date: 2015-04-21
+  site: MyString
+  body: MyText
+  body_html: MyText
+  body_short: MyString
+  employer: MyString
+  job_title: MyString
+  location: MyString
+  school: MyString

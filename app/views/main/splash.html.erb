@@ -1,0 +1,33 @@
+<% if user_table %>
+<%= form_for @user,url: root_url do |f| %>
+  
+
+  <% if @user.errors.any? %>
+    
+    <% @user.errors.full_messages.each do |message| %>
+
+      <alert type="danger"><%= message %></alert>
+
+    <% end %>
+
+  <% end %>
+
+
+  <div class="form-group">
+    <%= f.text_field :email,class: 'form-control',placeholder: 'Email' %>
+  </div>
+
+  <div class="form-group">
+    <%= f.password_field :password,class: 'form-control',placeholder: 'Password' %>
+  </div>
+
+  <div class="form-group">
+    <%= f.password_field :password_confirmation,class: 'form-control',placeholder: 'Confirm Password' %>
+  </div>
+
+  <%= f.submit 'Sign Up',class: 'btn btn-default' %>
+
+
+<% end %>
+<%= link_to "Log In", login_path %>
+<% end %>

@@ -1,0 +1,9 @@
+//= require jquery
+//= require jquery_ujs
+//= require ./AngularJS/angular.js
+//= require ./AngularJS/angular-resource.js
+//= require ./AngularJS/angular-route.js
+//= require ./AngularJS/angular-sanitize.js
+//= require ./AngularJS/ui-bootstrap-tpls-0.12.1.js
+//= require_tree ./AngularCTRL/Splash
+//= require z_global
